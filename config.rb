@@ -1,12 +1,13 @@
-require "compass"
-require "breakpoint"
-require "normalize-scss"
+# Require any additional compass plugins here.
+add_import_path "bower_components/foundation/scss"
 
-http_path = "/"
-css_dir = "assets/css"
-sass_dir = "assets/sass"
-images_dir = "assets/img"
-javascripts_dir = "assets/js"
+# Set this to the root of your project when deployed:
+http_path = "/ccs-imo"
+css_dir = "css"
+sass_dir = "scss"
+images_dir = "images"
+javascripts_dir = "js"
+load_paths = "bower_components/foundation/scss"
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
@@ -16,7 +17,6 @@ javascripts_dir = "assets/js"
 
 # To disable debugging comments that display the original location of your selectors. Uncomment:
 # line_comments = false
-
 
 # If you prefer the indented syntax, you might want to regenerate this
 # project again passing --syntax sass, or you can uncomment this:
